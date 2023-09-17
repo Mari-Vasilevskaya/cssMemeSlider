@@ -1,0 +1,20 @@
+@media screen and (max-device-width: 568px){
+   .text__dots {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .carousel__dots {
+      width: 15%;
+      height: 574%; 
+      display: flex;
+      justify-content: space-between;
+      position: sticky;
+   }
+   .slides {
+      height: 161%;
+   }
+   p {
+      margin-top: 7%;
+   }
+} 
