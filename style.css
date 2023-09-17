@@ -217,3 +217,35 @@ body {
 p {
    color: #fff;
 }
+.text-1 {
+}
+.text-2 {
+   z-index: 1;
+}
+.text-3 {
+   z-index: 1;
+}
+.text-4 {
+   z-index: 1;
+}
+.carousel__dots {
+   width: 50%;
+   height: 50%; 
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+}
+.dots {
+   display: inline-flex;
+   width: 1.0rem;
+   height: 1.0rem;
+   background: white;
+   text-decoration: none;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+   position: relative;
+}
+.dots:focus {
+   opacity: .5;
+}
