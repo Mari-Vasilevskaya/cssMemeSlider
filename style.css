@@ -185,7 +185,6 @@ body {
    background-size: 100% 100%;
 }
 .text-1 {
-   height: 5% !important;
    font-family: 'Inter';
    font-style: normal;
    font-weight: 700;
@@ -195,36 +194,27 @@ body {
    background-size: 100% 100%;
 }
 .text-2 {
-   width: 50%;
-   height: 50%;
    font-family: 'Inter';
    font-style: normal;
    font-weight: 700;
-   overflow: hidden;
 }
 .picture-3 {
    background: url(./img/nemo.jpg)  no-repeat center;
    background-size: 100% 100%;
 }
 .text-3 {
-   width: 50%;
-   height: 50%;
    font-family: 'Inter';
    font-style: normal;
    font-weight: 700;
-   overflow: hidden;
 }
 .picture-4 {
    background: url(./img/ice-age.jpg)  no-repeat center;
    background-size: 100% 100%;
 }
 .text-4 {
-   width: 50%;
-   height: 50%;
    font-family: 'Inter';
    font-style: normal;
    font-weight: 700;
-   overflow: hidden;
 }
 p {
    color: #fff;
