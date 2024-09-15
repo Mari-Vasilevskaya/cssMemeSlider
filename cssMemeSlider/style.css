@@ -105,13 +105,14 @@ body {
    user-select: none;
    border-radius: 50%;
    transition: .5s;
-   border: 0.3rem solid #f10606;
+   border: 0.2rem solid #d40909;
 }
 /* Checked */
 .radio__dot input[type=radio]:checked + label {
-   background: rgb(160, 2, 2);
+   background: rgb(158, 127, 127);
 }
 /* Hover */
 .radio__dot label:hover {
-	filter: brightness(5%);
+   background: rgb(172, 144, 144);
+   border: 0.2rem solid #774d4d;
 }
