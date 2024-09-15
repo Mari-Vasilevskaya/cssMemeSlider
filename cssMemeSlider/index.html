@@ -4,39 +4,61 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>cssMemeSlider</title>
-   <link rel="stylesheet" href="./style.css">
+   <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon_package_v0.16/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon_package_v0.16/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon_package_v0.16/favicon-16x16.png">
+   <link rel="manifest" href="./img/favicon_package_v0.16/site.webmanifest">
+   <link rel="mask-icon" href="./img/favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+   <meta name="msapplication-TileColor" content="#da532c">
+   <meta name="theme-color" content="#ffffff">
    <link rel="stylesheet" href="./media.css">
+   <link rel="stylesheet" href="./reset.css">
+   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<div class="meme__slider">
-   <div class="slider">
-      <div class="slides">
-         <div id="slide-1" class="pictures">
-            <div class="picture"></div>
-            <div class="text-1"><p>Blah, blah-blah.</p></div>
-         </div>
-         <div id="slide-2" class="pictures">
-            <div class="picture-2"></div>
-            <div class="text-2"><p>Улыбаемся и машем, парни, улыбаемся и машем...</p></div>
-         </div>
-         <div id="slide-3" class="pictures">
-            <div class="picture-3"></div>
-            <div class="text-3"><p>Вам помочь? -Боже упаси.</p></div>
-         </div>
-         <div id="slide-4" class="pictures">
-            <div class="picture-4"></div>
-            <div class="text-4"><p>А!</p></div>
-         </div>
-      </div>
-      <div class="text__dots">
-         <div class="carousel__dots">
-               <a class="dots" href="#slide-1"></a>
-               <a class="dots" href="#slide-2"></a>
-               <a class="dots" href="#slide-3"></a>
-               <a class="dots" href="#slide-4"></a>
+   <div class="meme__slider">
+      <div class="img">
+         <div class="img__wrap">
+            <div id="img1" class="imt-text-container">
+               <div class="img1"></div>
+                  <div class="text">STAGE - 0</div>
+            </div>
+            <div id="img2">
+               <div class="img2"></div>
+               <div class="text">Start of training STAGE - 0</div>
+            </div>
+            <div id="img3">
+               <div class="img3"></div>
+               <div class="text">Submitted before the deadline</div>
+            </div>
+            <div id="img4">
+               <div class="img4"></div>
+               <div class="text">CROSS-CHECK</div>
+            </div>
          </div>
       </div>
    </div>
-</div>
+   <div class="dots__wrapper">
+      <div class="dot__text">
+         <div class="container">
+            <div class="radio__dot">
+               <input id="dot1" type="radio" name="dot" value="1" checked>
+               <label for="dot1" onclick="location.href='#img1'"></label>
+            </div>
+            <div class="radio__dot">
+               <input id="dot2" type="radio" name="dot" value="2">
+               <label for="dot2" onclick="location.href='#img2'"></label>
+            </div>
+            <div class="radio__dot">
+               <input id="dot3" type="radio" name="dot" value="3">
+               <label for="dot3" onclick="location.href='#img3'"></label>
+            </div>
+            <div class="radio__dot">
+               <input id="dot4" type="radio" name="dot" value="4">
+               <label for="dot4" onclick="location.href='#img4'"></label>
+            </div>
+         </div>
+      </div>
+   </div>
 </body>
 </html>
