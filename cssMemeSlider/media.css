@@ -21,3 +21,12 @@
       font-size: 2.5rem;
    }
 } 
+@media screen and (max-device-width: 320px){
+   .container {
+      width: 11rem;
+   }
+   .text {
+      margin-top: 5rem;
+      font-size: 2.3rem;
+   }
+} 
