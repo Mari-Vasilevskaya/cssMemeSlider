@@ -1,0 +1,32 @@
+@media screen and (max-device-width: 568px){
+   .text__center {
+      justify-content: center;
+      align-items: flex-end;
+   }
+   .dot__text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .container {
+      width: 15rem;
+      height: 5rem;
+      gap: 0; 
+      display: flex;
+      justify-content: space-between;
+      position: sticky;
+   }
+   .text {
+      margin-top: 5rem;
+      font-size: 2.5rem;
+   }
+} 
+@media screen and (max-device-width: 320px){
+   .container {
+      width: 11rem;
+   }
+   .text {
+      margin-top: 5rem;
+      font-size: 2.3rem;
+   }
+} 
